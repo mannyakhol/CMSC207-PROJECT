@@ -293,9 +293,6 @@ body::before {
     text-align: center;
     color: var(--primary);
     font-family: 'Permanent Marker', cursive;
-    text-shadow: 
-      3px 3px 0 var(--secondary),
-      -3px -3px 0 var(--accent1);
     position: relative;
     z-index: 1;
     background: white;

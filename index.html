@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Website">
+    <meta name="robots" content="noindex, nofollow">
+    <title>CMSC 207 Mini-Project | Emmanuel "Manny" Beltran</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <span class="logo-letter">M</span>
+                <span class="logo-letter">A</span>
+                <span class="logo-letter">N</span>
+                <span class="logo-letter">N</span>
+                <span class="logo-letter">Y</span>
+                <span class="logo-emoji">✨</span>
+            </h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">
+                        <span class="nav-icon">👋</span>
+                        About
+                    </a></li>
+                    <li><a href="#hobbies" class="nav-link">
+                        <span class="nav-icon">🎮</span>
+                        Hobbies
+                    </a></li>
+                    <li><a href="#contact" class="nav-link">
+                        <span class="nav-icon">📬</span>
+                        Contact
+                    </a></li>
+                </ul>
+            </nav>
+            <div class="header-controls">
+                <button class="hamburger" aria-label="Toggle navigation menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <img src="assets/sun.svg" alt="Light mode" class="sun-icon">
+                    <img src="assets/moon.svg" alt="Dark mode" class="moon-icon">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+              <h2 class="section-title">Talk to Me!</h2>
+              <div class="about-content">
+                <div class="about-info">
+                  <div class="profile-image-container">
+                    <img src="assets/profile.mp4" alt="Profile Picture" class="profile-image">
+                  </div>
+                </div>
+                <div class="chat-wrapper">
+                  <div class="chat-container" id="chatContainer">
+                    <div class="chat-message bot">
+                      <div class="chat-avatar">🤖</div>
+                      <div class="message-content">
+                        Hello! I'm a UPOU student who's passionate about web development. I'm currently studying CMSC 207 and enjoying every moment of it. Feel free to ask me anything!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="chat-options-container">
+                    <button class="chat-option" data-response="who">Who are you?</button>
+                    <button class="chat-option" data-response="what">What do you do?</button>
+                    <button class="chat-option" data-response="skills">Tell me about your skills</button>
+                    <button class="chat-option" data-response="funfact">Tell me a fun fact!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="section">
+            <div class="container">
+                <h2 class="section-title">Hobbies & Interests</h2>
+                <div class="hobby-grid">
+                    <article class="hobby-card">
+                        <div class="hobby-icon">🎮</div>
+                        <h3>Gaming</h3>
+                        <p>I love RPG and mobile games. My favorite games include To the Moon, Diablo, and Good Pizza.</p>
+                    </article>
+                    <article class="hobby-card">
+                        <div class="hobby-icon">💻</div>
+                        <h3>Coding</h3>
+                        <p>I love creating web applications and solving programming challenges.</p>
+                    </article>
+                    <article class="hobby-card">
+                        <div class="hobby-icon">🎹</div>
+                        <h3>Music</h3>
+                        <p>Learning to play the piano and discovering new genres.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Find me Here!</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h3>Let's Connect!</h3>
+                            <p>I'm always excited to learn or collaborate on new projects. Don't be shy, send me a message!</p>
+                            
+                            <div class="contact-methods">
+                                <a href="mailto:epbeltran@up.edu.ph" class="contact-method email">
+                                    <span class="contact-icon">📧</span>
+                                    <div class="contact-details">
+                                        <h4>Email</h4>
+                                        <span>epbeltran@up.edu.ph</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="https://maps.app.goo.gl/JxpN8mXFDZJy4LB29" target="_blank" class="contact-method location">
+                                    <span class="contact-icon">📍</span>
+                                    <div class="contact-details">
+                                        <h4>Location</h4>
+                                        <span>Metro Manila, Philippines</span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="social-links">
+                                <a href="https://github.com/mannyakhol" target="_blank" class="social-link github">
+                                    <img src="assets/github.svg" alt="GitHub">
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/emmanuel-b-4a37262ba" target="_blank" class="social-link linkedin">
+                                    <img src="assets/linkedin.svg" alt="LinkedIn">
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="https://www.youtube.com/@EmmanuelBeltran-g8q" target="_blank" class="social-link youtube">
+                                    <img src="assets/youtube.svg" alt="Twitter">
+                                    <span>Youtube</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="fe6c37f6-ecfa-4b2f-a649-6b13c874875c">
+                            <input type="hidden" name="subject" value="New Contact Form Submission">
+                            <input type="hidden" name="from_name" value="CMSC 207 Mini-Project">
+                            
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <span class="btn-icon">✈️</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-text">
+                    &copy; 2025 Emmanuel Beltran <br>
+                    Made with <span class="emoji-bounce">❤️</span> for UPOU - CMSC 207 
+                </p>
+            </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+    <noscript>
+        <style>
+            .theme-toggle {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html> 

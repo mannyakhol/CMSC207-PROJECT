@@ -28,18 +28,14 @@ A modern, interactive personal portfolio website built for CMSC 207 at UPOU. Thi
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/mannyakhol/CMSC207-PROJECT.git
 ```
 
-2. Open `index.html` in your browser to view the website locally
+2. Open `index.html` in your browser or serve http like so:
 
-3. To modify the contact form:
-   - Sign up at [Web3Forms](https://web3forms.com/)
-   - Replace the access key in `index.html` with your own
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
+```bash
+python3 -m http.server 8000
+```
 
 ## 👤 Author
 
@@ -49,3 +45,4 @@ Emmanuel Beltran
 ## 🙏 Acknowledgments
 - Web3Forms for the contact form functionality
 - Google Fonts for typography
+- Icons8 for SVG icons

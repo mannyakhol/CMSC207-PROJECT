@@ -29,19 +29,13 @@ Check out the [live demo](https://upou2024beltran.10021997.xyz/)
 
 ## 📸 Screenshots
 
-| Web View |
-|:-:|
-| Dark Mode | Light Mode |
+| Dark Mode (Web) | Light Mode (Web)|
 |:-:|:-:|
 | ![Dark Mode](screenshots/dark-mode.png) | ![Light Mode](screenshots/light-mode.png) |
-| *Dark mode view* | *Light mode view* |
 
-| Mobile View |
-|:-:|
-| Dark Mode | Light Mode |
+| Dark Mode (Mobile) | Light Mode (Mobile) |
 |:-:|:-:|
 | ![Mobile Dark Mode](screenshots/mobile-dark.jpg) | ![Mobile Light Mode](screenshots/mobile-light.jpg) |
-| *Mobile dark mode view* | *Mobile light mode view* |
 
 ## 🚀 Getting Started
 
